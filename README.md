@@ -1,2 +1,2 @@
 # workshop-basic-javascript
-เฉลย Lab และการบ้าน สำหรับการสอน Javascript
+เฉลย Lab และการบ้าน สำหรับการสอนพื้นฐาน Javascript
