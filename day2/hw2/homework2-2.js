@@ -15,6 +15,13 @@ async function homework2() {
 
   console.log('peopleLowSalary :')
   console.log(peopleLowSalary)
+
+  const previousSumSalary = peopleSalary.reduce((sum, person) => sum+person.salary, 0)
+  const increasedSumSalary = peopleLowSalary.reduce((sum, person) => sum+person.salary, 0)/2
+  const sumSalary = previousSumSalary + increasedSumSalary
+
+  console.log('sumSalary :')
+  console.log(sumSalary)
 }
 
 homework2()
